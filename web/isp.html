@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat, Weather, Calendar, and To-Do List App</title>
+  <style src="styles.css">
+  </style>
+</head>
+<body>
+  <h1>At Work...</h1>
+
+  <div class="app-buttons">
+    <button class="chatbox" onclick="showChat()">Chat</button>
+    <button class="weather-display" onclick="showWeather()">Weather</button>
+    <button class="calendar" onclick="showCalendar()">Calendar</button>
+    <button class="todo-list" onclick="showTodoList()">To-Do List</button>
+  </div>
+
+  <div id="chatbox" class="app-container">
+    <h2>Chatbox</h2>
+    <div id="chat-messages"></div>
+  </div>
+
+  <div id="weather-display" class="app-container">
+    <h2>Weather Display</h2>
+    <p>Current weather: Sunny</p>
+    <p>Temperature: 25°C</p>
+  </div>
+
+  <div id="calendar" class="app-container">
+    <h2>Calendar</h2>
+    <p>Upcoming events:</p>
+    <ul>
+      <li>Meeting at 10 AM</li>
+      <li>Lunch with colleagues at 12:30 PM</li>
+    </ul>
+  </div>
+
+  <div id="todo-list" class="app-container">
+    <h2>To-Do List</h2>
+    <ul>
+      <li>Complete project tasks</li>
+      <li>Buy groceries</li>
+      <li>Exercise for 30 minutes</li>
+    </ul>
+  </div>
+
+  <script src="script.js">  </script>
+</body>
+</html>
